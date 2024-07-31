@@ -1,0 +1,53 @@
+{{ 'our-products.css' | asset_url | stylesheet_tag }}
+{{ 'our-products.js' | asset_url | script_tag }}
+<div class="our-product-section">
+  <header>
+    <h1>Our products</h1>
+  </header>
+
+  <div class="products-container" id="productsContainer"></div>
+
+  <div class="cart-container">
+    <h2 class="shipping-heading">Shopping Cart</h2>
+    <div class="cart-header">
+      <div class="filters">
+        <label>Filter by</label>
+        <input type="number" id="minPrice" placeholder="Min Price">
+        <input type="number" id="maxPrice" placeholder="Max Price">
+        <button onclick="filterByPrice()">Apply Filter</button>
+      </div>
+      <div style="display: inline-flex;">
+        <details class="filters">
+          <summary>Sort by</summary>
+          <button onclick="sortByPrice('asc')">Low to High</button>
+          <br>
+          <button onclick="sortByPrice('desc')">High to Low</button>
+        </details>
+        <button class="clear-cart-button" onclick="clearCart()">Clear Cart X</button>
+      </div>
+    </div>
+    <div class="products-container" id="cartItems"></div>
+    <div class="price-section" id="cartSection">
+      <h2 class="average-price" id="averagePrice">Average: $0.00</h2>
+      <h2 class="total-price" id="totalPrice">Total: $0.00</h2>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "our products",
+  "settings": [],
+  "presets": [
+    {
+      "name": "our products"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

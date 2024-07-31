@@ -1,0 +1,137 @@
+{% liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign image = current_product_variant.featured_image | default: product.featured_image
+%}
+
+{% style %}
+  .quick_view {
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  .quick_view .button_text {
+    display: inline-block;
+    margin-right: 8px;
+  }
+  .quick_view_anchor {
+    text-decoration: none;
+    border-radius: 5px;
+  }
+{% endstyle %}
+
+<product-card
+  class="product-card"
+  data-section-id="{{ sectionId }}"
+  data-product-url="{{ product.url }}"
+>
+  <div class="product_container">
+    <div class="product-image-container">
+      <a href="{{ product.url }}" class="hover_effect">
+        {% render 'image', class: 'media media--portrait first-image', mobileSrc: image, desktopSrc: image %}
+      </a>
+      {% unless current_variant.available %}
+        <p class="sold_out">Sold Out</p>
+      {% endunless %}
+    </div>
+
+    <div class="product_card_info">
+      {% form 'product', product %}
+        <input type="hidden" name="quantity" value="1">
+        <input type="hidden" name="id" value="{{ current_variant.id }}">
+
+        {% unless product.has_only_default_variant %}
+          <ul class="variant_box">
+            {% for option in product.options_with_values %}
+              {% if option.name == 'Color' %}
+                <li class="option_name">
+                  <ul class="radio_list radio-btn">
+                    {% for value in option.values %}
+                      <label
+                        class="variant_switch hover_effect"
+                        style="background-color: {{ value | handle }}"
+                      >
+                        <input
+                          type="radio"
+                          class="radio_input"
+                          name="{{ option.name }}"
+                          value="{{ value }}"
+                          {% if option.selected_value == value %}
+                            checked
+                          {% endif %}
+                        >
+                      </label>
+                    {% endfor %}
+                  </ul>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endunless %}
+      {% endform %}
+      <button class="quick_view" type="submit" data-url='{{ product.url }}'>
+        <span class="button_text">Quick view</span>
+        <svg class="button_icon" xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512">
+          <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z"/>
+        </svg>
+      </button>
+      <a href="{{ product.url }}" class="product-title" data-url="{{ product.url }}"> 
+        {{ product.title }}
+      </a>
+      <div class="rating_box">
+        <svg
+          class="star_icon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="112"
+          height="21"
+          viewBox="0 0 112 21"
+          fill="none"
+        >
+          <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#333333"/>
+          <path d="M33.5 0L35.8574 7.25532H43.4861L37.3143 11.7394L39.6717 18.9947L33.5 14.5106L27.3283 18.9947L29.6857 11.7394L23.5139 7.25532H31.1426L33.5 0Z" fill="#333333"/>
+          <path d="M56 0L58.4697 7.25532H66.4616L59.996 11.7394L62.4656 18.9947L56 14.5106L49.5344 18.9947L52.004 11.7394L45.5384 7.25532H53.5303L56 0Z" fill="#333333"/>
+          <path d="M78.5 0L80.8574 7.25532H88.4861L82.3143 11.7394L84.6717 18.9947L78.5 14.5106L72.3283 18.9947L74.6857 11.7394L68.5139 7.25532H76.1426L78.5 0Z" fill="#333333"/>
+          <path d="M101.5 0L103.857 7.25532H111.486L105.314 11.7394L107.672 18.9947L101.5 14.5106L95.3283 18.9947L97.6857 11.7394L91.5139 7.25532H99.1426L101.5 0Z" fill="#333333"/>
+        </svg>
+        <span class="rating_count">(30)</span>
+      </div>
+      <div class="discount_calculation">
+        {% assign selling_price = current_variant.price | divided_by: 100 %}
+        {% assign compare_price = current_variant.compare_at_price | divided_by: 100 %}
+        {% assign percentage = selling_price | times: 100 | divided_by: compare_price %}
+      </div>
+      <p class="price_detail">
+        <span class="product_price">{{ current_variant.price | money_with_currency }}</span>
+        <s class="compare_at_price">{{ current_variant.compare_at_price | money_with_currency }}</s>
+        <span class="discount_percentage">({{ percentage }}%off)</span>
+      </p>
+    </div>
+    <div class="wishlist">
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+        <g filter="url(#filter0_d_5200_5)">
+          <circle cx="25" cy="20" r="18" fill="white"/>
+        </g>
+        <path d="M33.8376 15.0925L33.8375 15.0924C33.4223 14.3644 32.8095 13.7415 32.084 13.2841C30.531 12.3083 28.4887 12.2565 26.8542 13.1035C26.2973 13.3924 25.7907 13.7935 25.3735 14.2683L24.9996 14.694L24.6238 14.27C24.3152 13.922 23.9574 13.6128 23.5638 13.3498C22.8449 12.8724 21.9954 12.6027 21.1086 12.5205L33.8376 15.0925ZM33.8376 15.0925C34.2697 15.8497 34.498 16.7078 34.5 17.5743C34.5 17.7389 34.4908 17.9066 34.4753 18.0788C34.3786 19.1047 34.0843 20.0809 33.653 21.0446L33.6528 21.045M33.8376 15.0925L33.6528 21.045M25.2193 29.4732C24.9827 29.5357 24.7585 29.4833 24.5466 29.3725M25.2193 29.4732C25.3167 29.4469 25.406 29.3977 25.4948 29.3486C25.5147 29.3377 25.5346 29.3267 25.5545 29.316M25.2193 29.4732L25.0916 28.9898C25.0911 28.9899 25.0906 28.9901 25.0902 28.9902C25.0897 28.9903 25.0892 28.9904 25.0888 28.9906L25.2193 29.4732ZM24.5466 29.3725L26.6241 28.7455C26.3938 28.8746 26.1634 28.9995 25.9289 29.1205C25.8034 29.185 25.678 29.2495 25.5545 29.316M24.5466 29.3725C23.6436 28.9008 22.753 28.4129 21.9055 27.8505L24.5466 29.3725ZM25.5545 29.316L25.3183 28.8754C25.3181 28.8754 25.318 28.8755 25.3178 28.8756M25.5545 29.316L25.3173 28.8759C25.3175 28.8758 25.3177 28.8757 25.3178 28.8756M26.3794 28.3095C26.8006 28.0725 27.2128 27.8242 27.6141 27.5627L27.6158 27.5616C29.0595 26.6289 30.4037 25.541 31.5204 24.2712L26.3794 28.3095ZM26.3794 28.3095C26.153 28.4363 25.9279 28.5584 25.6997 28.6761L25.6984 28.6768C25.5744 28.7405 25.4454 28.8068 25.3178 28.8756M26.3794 28.3095L25.3178 28.8756M33.6528 21.045C33.1312 22.2133 32.3853 23.2861 31.5206 24.2709L33.6528 21.045ZM15.5153 17.9966L15.5153 17.9966C15.5943 19.0044 15.8761 19.9698 16.2901 20.9249L15.5153 17.9966ZM15.5153 17.9966C15.405 16.5899 15.8945 15.1964 16.8651 14.1459L16.8652 14.1458M15.5153 17.9966L16.8652 14.1458M16.8652 14.1458C17.9159 13.008 19.5445 12.3756 21.1086 12.5205L16.8652 14.1458ZM22.1821 27.434C20.7678 26.4949 19.4543 25.4113 18.3685 24.1464L18.3682 24.146C17.5201 23.16 16.7961 22.0915 16.2901 20.925L22.1821 27.434ZM15.0168 18.0357L15.0169 18.0357L15.0168 18.0357Z" stroke="black"/>
+        <defs>
+          <filter id="filter0_d_5200_5" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="5"/>
+            <feGaussianBlur stdDeviation="3.5"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.13 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5200_5"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5200_5" result="shape"/>
+          </filter>
+        </defs>
+      </svg>
+    </div>
+  </div>
+  <script>
+    {{ product.variants | json }}
+  </script>
+</product-card>

@@ -1,0 +1,25 @@
+<div class="pdp-popup"></div>
+
+{% javascript %}  
+  const url = 'https://sanjeev-ecommerce-store.myshopify.com/{{ product.url }}';
+  fetch(url)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Network response was not ok: ${response.statusText}`);
+      }
+      return response.text();
+    })
+    .then(html => {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
+  
+      // Perform your DOM parsing here using standard DOM methods
+      // Example: console.log(doc.body.innerHTML);
+        console.log(doc.body);
+  
+      console.log('DOM parsed successfully');
+    })
+    .catch(error => {
+      console.error(`Error fetching or parsing the page: ${error.message}`);
+    });
+{% endjavascript %}

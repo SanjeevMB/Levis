@@ -1,0 +1,46 @@
+{{ 'levis-custom.css' | asset_url | stylesheet_tag }}
+<div class="levis_dynamic_product">
+  <h2 class="product_heading">{{ section.settings.heading_text | upcase }}</h2>
+  <div
+    class="levis_product_slider"
+    data-flickity='
+      { "groupCells": true,
+        "contain": true,
+        "prevNextButtons": false,
+        "freeScroll": true
+
+      }
+    '
+  >
+    {% for product in section.settings.product_list %}
+      <div class="product_item_slider">
+        {% render 'levis-product-card-snippet', product: product, sectionId: section.id %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Levis product card slide",
+  "tag": "section",
+  "class": "levis_product_card",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading text"
+    },
+    {
+      "type": "product_list",
+      "id": "product_list",
+      "label": "Select products"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Levis product card slide"
+    }
+  ]
+}
+{% endschema %}

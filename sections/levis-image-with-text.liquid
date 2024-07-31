@@ -1,0 +1,65 @@
+{{ 'levis-custom.css' | asset_url | stylesheet_tag }}
+
+<div class="levis_image_text_section">
+  <div class="image_box">
+    {% render 'image',
+      class: 'media media--landscape',
+      mobileSrc: section.settings.image,
+      desktopSrc: section.settings.image
+    %}
+  </div>
+  <div class="heading_text">
+    <h2>{{ section.settings.heading }}</h2>
+    <p>{{ section.settings.para_text }}</p>
+  </div>
+  <div class="button_text">
+    <p class="para button_para">SHOP Our most Inclusively</p>
+    <a href="{{ section.settings.collection }}">
+      <button class="para para_button">
+        Designed collection
+        <svg
+          class="hover_effect"
+          xmlns="http://www.w3.org/2000/svg"
+          width="21"
+          height="20"
+          viewBox="0 0 21 10"
+          fill="none"
+        >
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9858 6L20.9858 9.88675L14.9858 13.7735L14.9858 10.3868L0.985839 10.3867L0.985839 9.38675L14.9858 9.38675L14.9858 6Z" fill="black"/>
+        </svg>
+      </button>
+    </a>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "levis_image_text",
+"settings": [
+  {
+    "type": "image_picker",
+    "id": "image",
+    "label": "Select image"
+  },
+  {
+    "type": "text",
+    "id": "heading",
+    "label": "Heading text"
+  },
+  {
+    "type": "text",
+    "id": "para_text",
+    "label": "Para text"
+  },
+  {
+    "type": "url",
+    "id": "collection",
+    "label": "Select collection"
+  }
+],
+"presets": [
+  {
+    "name": "levis image text"
+  }
+]
+}
+{% endschema %}

@@ -1,0 +1,65 @@
+{{ 'levis-custom.css' | asset_url | stylesheet_tag }}
+
+<div class="levis_new_offers">
+  <h2 class="offer_heading">{{ section.settings.heading_text | upcase }}</h2>
+  <div
+    class="levis_offers"
+    data-flickity='
+      { "groupCells": true,
+        "contain": true,
+        "prevNextButtons": false,
+        "freeScroll": true,
+        "pageDots": true
+      }
+    '
+  >
+    {% for block in section.blocks %}
+      <div class="offer_item">
+        {% render 'image',
+          class: 'media media--square',
+          mobileSrc: block.settings.collection_item.image,
+          desktopSrc: block.settings.collection_item.image
+        %}
+        <a class="offer_shop_button hover_effect" href="{{ block.settings.offer_url }}">
+          <button class="btn-element">SHOP NOW</button>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Levis offers",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading text"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "levis offer",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection_item",
+          "label": "Select collection"
+        },
+        {
+          "type": "url",
+          "id": "offer_url",
+          "label": "Select collection"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Levis offers"
+    }
+  ]
+}
+{% endschema %}

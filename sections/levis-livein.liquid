@@ -1,0 +1,78 @@
+{{ 'levis-custom.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+  {% for item in section.blocks %}
+    .livein-{{ forloop.index }}:hover .icon-{{ forloop.index }} {
+      display: block !important;
+    }
+    .livein-{{ forloop.index }}:hover .overlay-{{ forloop.index }} {
+     display: block !important;
+    }
+  {% endfor %}
+{% endstyle %}
+
+<div class="levis_container">
+  <h2 class="livein_heading">{{ section.settings.heading }}</h2>
+  <div
+    class="levis_livein"
+    data-flickity='
+      { "groupCells": true,
+        "contain": true,
+        "prevNextButtons": false,
+        "freeScroll": true,
+        "pageDots": false
+      }
+    '
+  >
+    {% for block in section.blocks %}
+      <div class="image_box leivs_livein_item livein-{{ forloop.index }}">
+        {% render 'image',
+          class: 'media media--square',
+          mobileSrc: block.settings.image,
+          desktopSrc: block.settings.image
+        %}
+        <div class="image_icon icon-{{ forloop.index }}">
+          {% render 'image' class='media media--square', mobileSrc: block.settings.icon , desktopSrc: block.settings.icon %}
+        </div>
+        <div class="overlay overlay-{{ forloop.index }}"></div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "levis livein",
+  "class": "levis_livein",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "image",
+      "type": "images",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Image icon"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "levis livein"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,74 @@
+{{ 'levis-custom.css' | asset_url | stylesheet_tag }}
+
+<div class="levis_article">
+  <h2 class="levis_article_heading">{{ section.settings.heading_text }}</h2>
+  <div
+    class="article_box"
+    data-flickity='
+      { "groupCells": true,
+        "contain": true,
+        "prevNextButtons": true,
+        "freeScroll": true,
+        "pageDots": false
+      }
+    '
+  >
+    {% for block in section.blocks %}
+      <div class="article_image_box">
+        {% render 'image',
+          class: 'media media--portrait',
+          mobileSrc: block.settings.levis_article.image,
+          desktopSrc: block.settings.levis_article.image
+        %}
+        <h3 class="levis_article_title">{{ block.settings.levis_article.title }}</h3>
+        <a href="{{ block.settings.levis_article.url }}">
+          <button class="know_more">
+            Know More
+            <svg
+              class="arrow_icon hover_effect"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+            >
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M14 6L20 9.88675L14 13.7735L14 10.3868L0.499999 10.3867C0.223857 10.3867 -7.27863e-07 10.1629 -6.79581e-07 9.88675C-6.31299e-07 9.61061 0.223857 9.38675 0.499999 9.38675L14 9.38675L14 6Z" fill="black"/>
+            </svg>
+          </button>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "levis jeans fit",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading text",
+      "default": "Jeans Fit Guide"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "article",
+      "name": "levis fit guide",
+      "settings": [
+        {
+          "type": "article",
+          "id": "levis_article",
+          "label": "Select article"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "levis jeans fit"
+    }
+  ]
+}
+{% endschema %}

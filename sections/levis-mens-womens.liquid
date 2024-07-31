@@ -1,0 +1,55 @@
+{{ 'levis-custom.css' | asset_url | stylesheet_tag }}
+
+<div class="levis_collections">
+  <div
+    class="levis_collection_items"
+    data-flickity='
+      { "groupCells": true,
+        "contain": true,
+        "prevNextButtons": false,
+        "freeScroll": true,
+        "pageDots": false
+      }
+    '
+  >
+    {% for block in section.blocks %}
+      <div class="collection_item">
+        <h2 class="collection_title">{{ block.settings.collection_item.title }}</h2>
+        <div class="image_box">
+          <a href="{{ block.settings.collection_item.url }}" class="hover_effect">
+            {% render 'image',
+              class: 'media media--square',
+              mobileSrc: block.settings.collection_item.image,
+              desktopSrc: block.settings.collection_item.image
+            %}
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "levis men women",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "levis collection",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection_item",
+          "label": "Select collection"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "levis men women"
+    }
+  ]
+}
+{% endschema %}
