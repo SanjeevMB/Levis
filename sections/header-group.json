@@ -1,1 +1,93 @@
-{"name":"t:sections.header.name","type":"header","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement-bar-0":{"type":"announcement","settings":{"text":"Welcome to Levi's","link":""}}},"block_order":["announcement-bar-0"],"settings":{"color_scheme":"background-1","show_line_separator":true,"show_social":false,"auto_rotate":false,"change_slides_speed":5,"enable_country_selector":false,"enable_language_selector":false}},"header":{"type":"header","settings":{"logo_position":"middle-left","menu":"main-menu","menu_type_desktop":"dropdown","sticky_header_type":"on-scroll-up","show_line_separator":true,"color_scheme":"background-1","menu_color_scheme":"background-1","enable_country_selector":true,"enable_language_selector":true,"mobile_logo_position":"center","margin_bottom":0,"padding_top":20,"padding_bottom":20}}},"order":["announcement-bar","header"]}
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "header": {
+      "type": "header",
+      "blocks": {
+        "brand_logos_37Gtjf": {
+          "type": "brand_logos",
+          "settings": {
+            "brand_logo": "shopify:\/\/shop_images\/raymond_layer.png",
+            "url": "",
+            "active_block": true
+          }
+        },
+        "brand_logos_4xPqBP": {
+          "type": "brand_logos",
+          "settings": {
+            "brand_logo": "shopify:\/\/shop_images\/parkavenue_layer.png",
+            "url": "",
+            "active_block": true
+          }
+        },
+        "brand_logos_UtLtTm": {
+          "type": "brand_logos",
+          "settings": {
+            "brand_logo": "shopify:\/\/shop_images\/parx_layer.png",
+            "url": "",
+            "active_block": false
+          }
+        },
+        "brand_logos_cBGyJV": {
+          "type": "brand_logos",
+          "settings": {
+            "brand_logo": "shopify:\/\/shop_images\/colorplus_layer.png",
+            "url": "",
+            "active_block": false
+          }
+        },
+        "brand_logos_cJnLzT": {
+          "type": "brand_logos",
+          "settings": {
+            "brand_logo": "shopify:\/\/shop_images\/ethnix_layer.png",
+            "url": "",
+            "active_block": true
+          }
+        },
+        "brand_logos_dpWaUM": {
+          "type": "brand_logos",
+          "settings": {
+            "brand_logo": "shopify:\/\/shop_images\/logo_2.jpg",
+            "url": "",
+            "active_block": true
+          }
+        },
+        "brand_logos_Ki6wgz": {
+          "type": "brand_logos",
+          "settings": {
+            "url": "",
+            "active_block": true
+          }
+        }
+      },
+      "block_order": [
+        "brand_logos_37Gtjf",
+        "brand_logos_4xPqBP",
+        "brand_logos_UtLtTm",
+        "brand_logos_cBGyJV",
+        "brand_logos_cJnLzT",
+        "brand_logos_dpWaUM",
+        "brand_logos_Ki6wgz"
+      ],
+      "settings": {
+        "logo_position": "top-center",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": false,
+        "color_scheme": "background-1",
+        "menu_color_scheme": "background-1",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "header"
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "about_image_banner_mCNA6E": {
+      "type": "about-image-banner",
+      "settings": {
+        "add_image_for_desktop": "shopify:\/\/shop_images\/about-banner1_1_5.jpg",
+        "add_image_for_mobile": "shopify:\/\/shop_images\/about-banner1_2.jpg",
+        "heading_text": "Revolutionizing men’s clothing since 1900s",
+        "heading_para": "Over 40 Years of Creating Quality Clothing",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "about_text_image_tBH9Hg": {
+      "type": "about-text-image",
+      "blocks": {
+        "image_text_Xbq6de": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pseudo_6.jpg",
+            "text1": "Stores",
+            "text2": "1000+"
+          }
+        },
+        "image_text_8NQt4r": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pseudo_7.jpg",
+            "text1": "10,00,000+",
+            "text2": "Loyal Customers"
+          }
+        },
+        "image_text_zU8XNn": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pseudo_8.jpg",
+            "text1": "Years",
+            "text2": "50+"
+          }
+        }
+      },
+      "block_order": [
+        "image_text_Xbq6de",
+        "image_text_8NQt4r",
+        "image_text_zU8XNn"
+      ],
+      "settings": {
+        "heading": "<p>Trust , quality, Excellence<\/p>",
+        "title_decor": false,
+        "margin_bottom": 44,
+        "enter_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "padding_top": 80,
+        "padding_bottom": 30,
+        "padding_top2": 0,
+        "padding_bottom2": 36
+      }
+    },
+    "about_company_HWygqG": {
+      "type": "about-company",
+      "blocks": {
+        "image_text_eUQR8z": {
+          "type": "image-text",
+          "settings": {
+            "text": "Raymond, A Diversified Group Shaping A Stronger & Better Tomorrow.",
+            "paragraph": "<p>With roots dating back to 1925, as a small woollen mill in Thane (Maharashtra), manufacturing coarse woollen blankets, Raymond Brand has evolved into a leading manufacturer of the finest fabrics in the world. Reckoned for its pioneering innovations and having enjoyed the patronage of millions of consumers, Raymond is amongst the trusted brands in India.<\/p>",
+            "name": "",
+            "position": "",
+            "readmore": "",
+            "link": "",
+            "text_alignment": "right",
+            "select_image": "shopify:\/\/shop_images\/image_306_1.jpg",
+            "image_alignment": "row"
+          }
+        },
+        "image_text_cPLqkT": {
+          "type": "image-text",
+          "settings": {
+            "text": "From the Chairman",
+            "paragraph": "<p>The future lies in imagining the unimaginable! At Re-imagined Raymond, we aspire to achieve just the same. We aim to create not just offerings but an organisation that is built for the future.<\/p>",
+            "name": "GAUTAM HARI SINGHANIA",
+            "position": "CHAIRMAN & MANAGING DIRECTOR,",
+            "select_image1": "shopify:\/\/shop_images\/logo_2.jpg",
+            "readmore": "Read more",
+            "link": "shopify:\/\/pages\/contact",
+            "text_alignment": "right",
+            "select_image": "shopify:\/\/shop_images\/Frame_1000004976_3.jpg",
+            "image_alignment": "row-reverse"
+          }
+        }
+      },
+      "block_order": [
+        "image_text_eUQR8z",
+        "image_text_cPLqkT"
+      ],
+      "settings": {
+        "color_scheme": "scheme-decda47a-75cf-40f4-b042-f93ae363093a",
+        "padding_top": 52,
+        "padding_bottom": 0,
+        "padding_top1": 0,
+        "padding_bottom1": 0
+      }
+    },
+    "about_blog_posts_K8WGYQ": {
+      "type": "about-blog-posts",
+      "blocks": {
+        "blogpost_pbQH3M": {
+          "type": "blogpost",
+          "settings": {
+            "add_your_article": "all-blogs\/men-s-formal-suit-to-wear-on-the-big-day-2"
+          }
+        },
+        "blogpost_ciBcw6": {
+          "type": "blogpost",
+          "settings": {
+            "add_your_article": "all-blogs\/men-s-formal-suit-to-wear-on-the-big-day-1"
+          }
+        },
+        "blogpost_BeNix7": {
+          "type": "blogpost",
+          "settings": {
+            "add_your_article": "all-blogs\/men-s-formal-suit-to-wear-on-the-big-day"
+          }
+        }
+      },
+      "block_order": [
+        "blogpost_pbQH3M",
+        "blogpost_ciBcw6",
+        "blogpost_BeNix7"
+      ],
+      "settings": {
+        "heading": "<p>Revolutionizing the world of Style<\/p>",
+        "title_decor": false,
+        "color_scheme": "scheme-decda47a-75cf-40f4-b042-f93ae363093a",
+        "margin_bottom": 40,
+        "padding_top": 92,
+        "padding_bottom": 72,
+        "padding_top2": 36,
+        "padding_bottom2": 36
+      }
+    },
+    "video_hKJGFL": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/Rectangle_4241_4.jpg",
+        "cover_text": "Watch how we came in to inception",
+        "description": "jellpp",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top1": 36,
+        "padding_bottom1": 36
+      }
+    },
+    "rich_text_gMnVpf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JnWegP": {
+          "type": "heading",
+          "settings": {
+            "heading": "GET IN TOUCH",
+            "heading_size": "h1"
+          }
+        },
+        "text_A3KGa8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster <\/p>"
+          }
+        },
+        "button_kUwMRH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JnWegP",
+        "text_A3KGa8",
+        "button_kUwMRH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-edb528ef-da13-4d7e-98af-907196e80c64",
+        "body_text": "#936139",
+        "full_width": true,
+        "rich-text": false,
+        "padding_top": 36,
+        "padding_bottom": 72
+      }
+    }
+  },
+  "order": [
+    "main",
+    "about_image_banner_mCNA6E",
+    "about_text_image_tBH9Hg",
+    "about_company_HWygqG",
+    "about_blog_posts_K8WGYQ",
+    "video_hKJGFL",
+    "rich_text_gMnVpf"
+  ]
+}

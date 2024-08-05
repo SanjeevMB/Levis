@@ -1,0 +1,564 @@
+{
+  "sections": {
+    "slideshow_rAHcxb": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_bWYmtT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_3_77a24602-b4e3-4f9e-8335-471870db761e.png",
+            "image_mobile": "shopify:\/\/shop_images\/Rectangle_4137_246d171f-5925-487b-95b7-090b7f4951c9.png",
+            "heading": "",
+            "heading_color": "",
+            "heading_size": "h1",
+            "caption": "",
+            "caption_color": "#000000",
+            "caption_size": "caption",
+            "subheading": "<p><\/p><p><\/p>",
+            "subheading_color": "",
+            "subheading_size": "h3",
+            "button_label": "Discover more",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "button_label2": "View Store",
+            "link_2": "shopify:\/\/collections\/frontpage",
+            "button2_style_secondary": true,
+            "text_bg-mobile": "",
+            "select_stars": "5",
+            "show_stars": false,
+            "information": "",
+            "information_color": "",
+            "icon_1": "",
+            "icon_2": "",
+            "icon_3": "",
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_CdhgAk": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_3_77a24602-b4e3-4f9e-8335-471870db761e.png",
+            "image_mobile": "shopify:\/\/shop_images\/Rectangle_4137_246d171f-5925-487b-95b7-090b7f4951c9.png",
+            "heading": "",
+            "heading_color": "",
+            "heading_size": "h1",
+            "caption": "",
+            "caption_color": "#000000",
+            "caption_size": "caption",
+            "subheading": "<p><\/p><p><\/p>",
+            "subheading_color": "",
+            "subheading_size": "h3",
+            "button_label": "Discover more",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "button_label2": "View Store",
+            "link_2": "shopify:\/\/collections\/frontpage",
+            "button2_style_secondary": true,
+            "text_bg-mobile": "",
+            "select_stars": "5",
+            "show_stars": false,
+            "information": "",
+            "information_color": "",
+            "icon_1": "",
+            "icon_2": "",
+            "icon_3": "",
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_HEqbrE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_3_77a24602-b4e3-4f9e-8335-471870db761e.png",
+            "image_mobile": "shopify:\/\/shop_images\/Rectangle_4137_246d171f-5925-487b-95b7-090b7f4951c9.png",
+            "heading": "",
+            "heading_color": "",
+            "heading_size": "h1",
+            "caption": "",
+            "caption_color": "#000000",
+            "caption_size": "caption",
+            "subheading": "<p><\/p><p><\/p>",
+            "subheading_color": "",
+            "subheading_size": "h3",
+            "button_label": "Discover more",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "button_label2": "View Store",
+            "link_2": "shopify:\/\/collections\/frontpage",
+            "button2_style_secondary": true,
+            "text_bg-mobile": "",
+            "select_stars": "5",
+            "show_stars": false,
+            "information": "",
+            "information_color": "",
+            "icon_1": "",
+            "icon_2": "",
+            "icon_3": "",
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_bWYmtT",
+        "slide_CdhgAk",
+        "slide_HEqbrE"
+      ],
+      "settings": {
+        "section_heading": "",
+        "title_decor": false,
+        "margin_bottom": 40,
+        "custom_class": "",
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand",
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
+    },
+    "collection_carousel_4g9bDj": {
+      "type": "collection-carousel",
+      "blocks": {
+        "collection_block_eKc3kb": {
+          "type": "collection_block",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Rectangle_4206.png",
+            "mobile_image": "shopify:\/\/shop_images\/Rectangle_4207.png",
+            "title": "ENCHANTING CASUAL",
+            "link": ""
+          }
+        },
+        "collection_block_kPDJV3": {
+          "type": "collection_block",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Rectangle_4207.png",
+            "mobile_image": "shopify:\/\/shop_images\/Rectangle_4207.png",
+            "title": "BEST CHOICE",
+            "link": ""
+          }
+        },
+        "collection_block_6fRf6L": {
+          "type": "collection_block",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Rectangle_4208.png",
+            "mobile_image": "shopify:\/\/shop_images\/Rectangle_4208.png",
+            "title": "ILLUSION ATTIRE",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_block_eKc3kb",
+        "collection_block_kPDJV3",
+        "collection_block_6fRf6L"
+      ],
+      "settings": {
+        "heading": "<p>AWAY FROM THE USUAL<\/p>",
+        "title_decor": true,
+        "margin_bottom": 40,
+        "full_width": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_background": "",
+        "image_flow": false
+      }
+    },
+    "slideshow_image_C3jjEV": {
+      "type": "slideshow-image",
+      "blocks": {
+        "slide_pVpF73": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_4221.png",
+            "image_mobile": "shopify:\/\/shop_images\/Frame_1000005115_7332ebf2-f601-454a-a864-6b7ddfd4b506.png",
+            "slide_url": "",
+            "image_overlay_opacity": 0,
+            "color_scheme": ""
+          }
+        },
+        "slide_Ux68mT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_4221.png",
+            "image_mobile": "shopify:\/\/shop_images\/Frame_1000005115_7332ebf2-f601-454a-a864-6b7ddfd4b506.png",
+            "slide_url": "",
+            "image_overlay_opacity": 0,
+            "color_scheme": ""
+          }
+        },
+        "slide_QNwKQb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_4221.png",
+            "image_mobile": "shopify:\/\/shop_images\/Frame_1000005115_7332ebf2-f601-454a-a864-6b7ddfd4b506.png",
+            "slide_url": "",
+            "image_overlay_opacity": 0,
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_pVpF73",
+        "slide_Ux68mT",
+        "slide_QNwKQb"
+      ],
+      "settings": {
+        "section_heading": "<p>YEAR SPECIAL SALE<\/p>",
+        "title_decor": true,
+        "margin_bottom": 40,
+        "section_heading_size": "h1",
+        "desktop_content_position": "center",
+        "custom_class": "",
+        "padding_top": 60,
+        "padding_bottom": 80,
+        "layout": "grid",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "slider_dots_overlay": false,
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "category_banner_images_TmXbXN": {
+      "type": "category-banner-images",
+      "blocks": {
+        "category_images_yKUVjK": {
+          "type": "category_images",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/shop-color.png",
+            "anchor_title": "Shop By Color",
+            "anchor_link": ""
+          }
+        },
+        "category_images_XX8c6Y": {
+          "type": "category_images",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/shop-tone.png",
+            "anchor_title": "Shop By Tone",
+            "anchor_link": ""
+          }
+        },
+        "category_images_GGPzBd": {
+          "type": "category_images",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/shop-pattern.png",
+            "anchor_title": "Shop By Pattern",
+            "anchor_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "category_images_yKUVjK",
+        "category_images_XX8c6Y",
+        "category_images_GGPzBd"
+      ],
+      "settings": {
+        "section_header": "Crafted for Excellence",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "lookbook_6U4b6z": {
+      "type": "lookbook",
+      "blocks": {
+        "lookbook_slide_9Pacwq": {
+          "type": "lookbook_slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Placeholder_3ec56991-c75c-4432-9ce7-13d99583d2bb.png",
+            "image_mobile": "shopify:\/\/shop_images\/Frame_1000005121_29bee9b3-7c0f-490a-a626-756b9f28109e.png",
+            "slide_url": "shopify:\/\/collections",
+            "image_overlay_opacity": 0,
+            "hotspot_image_1": "shopify:\/\/shop_images\/item_d9b596bc-9f32-45da-b5f1-45b4ed1d400b.png",
+            "hotspot_title_1": "Casual Shirt",
+            "hotspot_position_1_top": 10,
+            "hotspot_position_1_left": 10,
+            "hotspot_image_2": "shopify:\/\/shop_images\/item_d9b596bc-9f32-45da-b5f1-45b4ed1d400b.png",
+            "hotspot_title_2": "Casual Shirt",
+            "hotspot_position_2_top": 30,
+            "hotspot_position_2_left": 70,
+            "color_scheme": ""
+          }
+        },
+        "lookbook_slide_MDx4y8": {
+          "type": "lookbook_slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Placeholder_3ec56991-c75c-4432-9ce7-13d99583d2bb.png",
+            "image_mobile": "shopify:\/\/shop_images\/Frame_1000005121_29bee9b3-7c0f-490a-a626-756b9f28109e.png",
+            "slide_url": "shopify:\/\/collections",
+            "image_overlay_opacity": 0,
+            "hotspot_image_1": "shopify:\/\/shop_images\/item_d9b596bc-9f32-45da-b5f1-45b4ed1d400b.png",
+            "hotspot_title_1": "Casual Shirt",
+            "hotspot_position_1_top": 30,
+            "hotspot_position_1_left": 10,
+            "hotspot_image_2": "shopify:\/\/shop_images\/item_d9b596bc-9f32-45da-b5f1-45b4ed1d400b.png",
+            "hotspot_title_2": "Casual Shirt",
+            "hotspot_position_2_top": 5,
+            "hotspot_position_2_left": 70,
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "lookbook_slide_9Pacwq",
+        "lookbook_slide_MDx4y8"
+      ],
+      "settings": {
+        "section_heading": "<p>Experience the Perfect Fit<\/p>",
+        "title_decor": true,
+        "margin_bottom": 40,
+        "full_width": false,
+        "section_heading_size": "h1",
+        "desktop_content_position": "center",
+        "custom_class": "",
+        "padding_top": 36,
+        "padding_bottom": 80,
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "slider_dots_overlay": true,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none"
+      }
+    },
+    "video_thumbnail_6jFjKt": {
+      "type": "video-thumbnail",
+      "blocks": {
+        "video_block_dnbbrh": {
+          "type": "video-block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_4193.png",
+            "mobile_image": "shopify:\/\/shop_images\/Rectangle_4192_2da1492e-e921-4d00-8b4c-9524094d4c7b.png",
+            "loop": true,
+            "autoplay": false,
+            "controls": false,
+            "thumbnail_cover_image": "shopify:\/\/shop_images\/Rectangle_4192.png"
+          }
+        },
+        "video_block_qaNLBA": {
+          "type": "video-block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/image2.jpg",
+            "loop": true,
+            "autoplay": false,
+            "controls": false,
+            "thumbnail_cover_image": "shopify:\/\/shop_images\/image2.jpg"
+          }
+        },
+        "video_block_wJTRCW": {
+          "type": "video-block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/image.jpg",
+            "loop": true,
+            "autoplay": false,
+            "controls": false,
+            "thumbnail_cover_image": "shopify:\/\/shop_images\/image.jpg"
+          }
+        },
+        "video_block_Nj9cy3": {
+          "type": "video-block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_4192_313405fb-2ef5-4ec2-9e8d-12cc8703158f.png",
+            "mobile_image": "shopify:\/\/shop_images\/Rectangle_4192_313405fb-2ef5-4ec2-9e8d-12cc8703158f.png",
+            "loop": true,
+            "autoplay": false,
+            "controls": false,
+            "thumbnail_cover_image": "shopify:\/\/shop_images\/Rectangle_4192_313405fb-2ef5-4ec2-9e8d-12cc8703158f.png"
+          }
+        },
+        "video_block_mjnTgz": {
+          "type": "video-block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_c6e11045-b66a-4c7a-9afb-f616c0cacdd7.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/image_c6e11045-b66a-4c7a-9afb-f616c0cacdd7.jpg",
+            "loop": true,
+            "autoplay": false,
+            "controls": false,
+            "thumbnail_cover_image": "shopify:\/\/shop_images\/image_c6e11045-b66a-4c7a-9afb-f616c0cacdd7.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "video_block_dnbbrh",
+        "video_block_qaNLBA",
+        "video_block_wJTRCW",
+        "video_block_Nj9cy3",
+        "video_block_mjnTgz"
+      ],
+      "settings": {
+        "heading": "<p>Unleash Your Gentleman<\/p>",
+        "title_decor": true,
+        "margin_bottom": 40,
+        "full_width": false,
+        "arrow_color": "#026c48",
+        "padding-top": 36,
+        "padding-bottom": 36
+      }
+    },
+    "multirow_YGHYVD": {
+      "type": "multirow",
+      "blocks": {
+        "row_njNRFt": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000004976_cdb51b0b-9a43-48ff-bc39-54a5d7e80595.png",
+            "caption": "",
+            "heading": "TONE OF MATERIALS",
+            "text": "<p>\"The record  is my all-time favourite. It's really amazing. I discovered that the crosswalk's stripes could be readily raised to resemble stripes, which gave me the idea to replicate a crossing. The guys had to be positioned carefully so that it appeared as though they were strolling across your clothes.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "desktop_content_alignment": "left"
+          }
+        },
+        "row_TVnMKb": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_10000049176.png",
+            "caption": "",
+            "heading": "DESIGN OF COLOR PLUS",
+            "text": "<p>\"The record  is my all-time favourite. It's really amazing. I discovered that the crosswalk's stripes could be readily raised to resemble stripes, which gave me the idea to replicate a crossing. The guys had to be positioned carefully so that it appeared as though they were strolling across your clothes.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "desktop_content_alignment": "right"
+          }
+        }
+      },
+      "block_order": [
+        "row_njNRFt",
+        "row_TVnMKb"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h4",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_carousel_JViRTU": {
+      "type": "collection-carousel",
+      "blocks": {
+        "collection_block_AnwMVt": {
+          "type": "collection_block",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Rectangle_4214.png",
+            "mobile_image": "shopify:\/\/shop_images\/Rectangle_4214.png",
+            "title": "DREAMY CASUAL",
+            "link": ""
+          }
+        },
+        "collection_block_Kgp9kh": {
+          "type": "collection_block",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Rectangle_4215.png",
+            "mobile_image": "shopify:\/\/shop_images\/Rectangle_4215.png",
+            "title": "BEST CHOICE",
+            "link": ""
+          }
+        },
+        "collection_block_RkT3CA": {
+          "type": "collection_block",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Rectangle_4216.png",
+            "mobile_image": "shopify:\/\/shop_images\/Rectangle_4216.png",
+            "title": "ILLUSION ATTIRE",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_block_AnwMVt",
+        "collection_block_Kgp9kh",
+        "collection_block_RkT3CA"
+      ],
+      "settings": {
+        "heading": "<p>Best Suit For you<\/p>",
+        "title_decor": true,
+        "margin_bottom": 40,
+        "full_width": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_background": "#ededed",
+        "image_flow": true
+      }
+    },
+    "store_locator_rqeqyt": {
+      "type": "store-locator",
+      "blocks": {
+        "title_MWDyBD": {
+          "type": "title",
+          "settings": {
+            "title": "Find Your Store"
+          }
+        },
+        "description_ffyrgE": {
+          "type": "description",
+          "settings": {
+            "subtitle": "<ul><li>The store locator helps customers easily find their nearest Raymond retail store or shop-in-shop. <\/li><li>It allows users to search by city, pincode or current location to pull up results on a map.<\/li><\/ul>"
+          }
+        },
+        "button_BbAden": {
+          "type": "button",
+          "settings": {
+            "button_text": "View Store",
+            "button_url": "shopify:\/\/collections\/frontpage"
+          }
+        }
+      },
+      "block_order": [
+        "title_MWDyBD",
+        "description_ffyrgE",
+        "button_BbAden"
+      ],
+      "settings": {
+        "heading": "<p>STORE LOCATOR<\/p>",
+        "title_decor": false,
+        "margin_bottom": 40,
+        "full_width": false,
+        "section_color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 72,
+        "image_desktop": "shopify:\/\/shop_images\/Group_1000003007.png"
+      }
+    }
+  },
+  "order": [
+    "slideshow_rAHcxb",
+    "collection_carousel_4g9bDj",
+    "slideshow_image_C3jjEV",
+    "category_banner_images_TmXbXN",
+    "lookbook_6U4b6z",
+    "video_thumbnail_6jFjKt",
+    "multirow_YGHYVD",
+    "collection_carousel_JViRTU",
+    "store_locator_rqeqyt"
+  ]
+}

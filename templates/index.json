@@ -1,1 +1,541 @@
-{"sections":{"slideshow_qjGWUB":{"type":"slideshow","blocks":{"slide_HfVKD7":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/levis-banner.jpg","heading":"<strong>Summer Sale<\/strong>","heading_size":"h0","subheading":"Up to 50% discount on the latest trends","button_label":"Shop Now","link":"shopify:\/\/collections\/new-offers-3","button_style_secondary":false,"box_align":"middle-left","show_text_box":true,"text_alignment":"left","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}},"slide_b8pcnz":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/levis-banner2.webp","heading":"","heading_size":"h1","subheading":"","button_label":"Shop Now","link":"shopify:\/\/collections\/shop-men","button_style_secondary":false,"box_align":"bottom-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}},"slide_qNVn33":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/levis-banner3.webp","heading":"","heading_size":"h1","subheading":"","button_label":"Shop Now","link":"shopify:\/\/collections\/shop-women","button_style_secondary":false,"box_align":"bottom-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"background-1","text_alignment_mobile":"center"}}},"block_order":["slide_HfVKD7","slide_b8pcnz","slide_qNVn33"],"custom_css":[],"settings":{"layout":"full_bleed","slide_height":"medium","slider_visual":"dots","auto_rotate":true,"change_slides_speed":5,"image_behavior":"none","show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"levis_new_offers_yQdGGi":{"type":"levis-new-offers","blocks":{"collection_86pe9R":{"type":"collection","settings":{"collection_item":"new-offers-1","offer_url":"shopify:\/\/collections\/new-offers-1"}},"collection_tnKhcy":{"type":"collection","settings":{"collection_item":"new-offers-2","offer_url":"shopify:\/\/collections\/new-offers-2"}},"collection_y9Ei3X":{"type":"collection","settings":{"collection_item":"new-offers-3","offer_url":"shopify:\/\/collections\/new-offers-3"}},"collection_Ufxqp9":{"type":"collection","settings":{"collection_item":"new-offers-4","offer_url":"shopify:\/\/collections\/new-offers-4"}},"collection_yy6Fek":{"type":"collection","settings":{"collection_item":"new-offers-5","offer_url":"shopify:\/\/collections\/new-offers-5"}},"collection_Fz9Xm7":{"type":"collection","settings":{"collection_item":"new-offers-6","offer_url":"shopify:\/\/collections\/new-offers-6"}},"collection_Cb7RM6":{"type":"collection","settings":{"collection_item":"new-offers-7","offer_url":"shopify:\/\/collections\/new-offers-7"}},"collection_tqRRF9":{"type":"collection","settings":{"collection_item":"new-offers-8","offer_url":"shopify:\/\/collections\/new-offers-8"}},"collection_GbHTpA":{"type":"collection","settings":{"collection_item":"new-offers-9","offer_url":"shopify:\/\/collections\/new-offers-9"}}},"block_order":["collection_86pe9R","collection_tnKhcy","collection_y9Ei3X","collection_Ufxqp9","collection_yy6Fek","collection_Fz9Xm7","collection_Cb7RM6","collection_tqRRF9","collection_GbHTpA"],"settings":{"heading_text":"New Offers"}},"levis_product_card_dynamic_hYtqYf":{"type":"levis-product-card-dynamic","settings":{"heading_text":"New Arrivals","product_list":["gold-tab™-warm-up-nylon-mens-shorts","gold-tab™-warm-up-nylon-mens-shorts-1","gold-tab™-warm-up-nylon-mens","gold-tab™-warm-up-nylon-mens-lorem-ipsum-dolor-sit-amet-conspici","good-times-tee","ischia-dress","festival-romper","daphne-dress","cropped-varsity-sweater","casey-collar-top","carmel-dress","birdie-ruffle-dress"]}},"levis_image_with_text_NCJeFi":{"type":"levis-image-with-text","settings":{"image":"shopify:\/\/shop_images\/levis-featured-collection.jpg","heading":"Featured Collection","para_text":"Up to 50% discount on the latest trends","collection":"shopify:\/\/collections\/new-offers-1"}},"levis_product_card_static_8nW9VE":{"type":"levis-product-card-static","settings":{"heading_text":"Latest Collection","product_list":["example-t-shirt"]}},"levis_mens_womens_XmthEg":{"type":"levis-mens-womens","blocks":{"collection_hwJFN9":{"type":"collection","settings":{"collection_item":"shop-men"}},"collection_KikMGN":{"type":"collection","settings":{"collection_item":"shop-women"}},"collection_6Kg4WC":{"type":"collection","settings":{"collection_item":"footwear"}}},"block_order":["collection_hwJFN9","collection_KikMGN","collection_6Kg4WC"],"settings":{}},"levis_jeans_fit_guid_kMemex":{"type":"levis-jeans-fit-guid","blocks":{"article_ih6Tem":{"type":"article","settings":{"levis_article":"levis-fitting-guide\/levis-blog"}},"article_WpbK3d":{"type":"article","settings":{"levis_article":"levis-fitting-guide\/womens-bottom"}},"article_WhzYjb":{"type":"article","settings":{"levis_article":"levis-fitting-guide\/womens-top"}},"article_KPdCmg":{"type":"article","settings":{"levis_article":"levis-fitting-guide\/stripes-must-haves-for-autumn"}},"article_yXMDLY":{"type":"article","settings":{"levis_article":"levis-fitting-guide\/color-pop"}},"article_Fcdnrn":{"type":"article","settings":{"levis_article":"levis-fitting-guide\/summer-look-book"}}},"block_order":["article_ih6Tem","article_WpbK3d","article_WhzYjb","article_KPdCmg","article_yXMDLY","article_Fcdnrn"],"settings":{"heading_text":"Jeans Fit Guide"}},"video_ww7H9E":{"type":"video","settings":{"heading":"","heading_size":"h1","enable_video_looping":false,"video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","cover_image":"shopify:\/\/shop_images\/cover-image.jpg","description":"","full_width":false,"color_scheme":"","padding_top":36,"padding_bottom":36}},"levis_livein_WgDfCF":{"type":"levis-livein","blocks":{"images_bBYjpa":{"type":"images","settings":{"image":"shopify:\/\/shop_images\/livein1.png","icon":"shopify:\/\/shop_images\/instagram.png"}},"images_CBRUKx":{"type":"images","settings":{"image":"shopify:\/\/shop_images\/livein2.png","icon":"shopify:\/\/shop_images\/instagram.png"}},"images_4RWyhj":{"type":"images","settings":{"image":"shopify:\/\/shop_images\/livein3.png","icon":"shopify:\/\/shop_images\/instagram.png"}},"images_e6NPFg":{"type":"images","settings":{"image":"shopify:\/\/shop_images\/livein4.png","icon":"shopify:\/\/shop_images\/instagram.png"}}},"block_order":["images_bBYjpa","images_CBRUKx","images_4RWyhj","images_e6NPFg"],"settings":{"heading":"#liveinlevis"}}},"order":["slideshow_qjGWUB","levis_new_offers_yQdGGi","levis_product_card_dynamic_hYtqYf","levis_image_with_text_NCJeFi","levis_product_card_static_8nW9VE","levis_mens_womens_XmthEg","levis_jeans_fit_guid_kMemex","video_ww7H9E","levis_livein_WgDfCF"]}
+{
+  "sections": {
+    "slideshow_wkFWpy": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_NHcdcD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hp_banner_img_2_desk_2_42b81738-9a1c-4bf2-8e03-61ff046d730e.webp",
+            "image_mobile": "shopify:\/\/shop_images\/hp_banner_img_2_desk_2_42b81738-9a1c-4bf2-8e03-61ff046d730e.webp",
+            "image_link": "shopify:\/\/pages\/festive-landing-page",
+            "heading": "",
+            "heading_color": "",
+            "heading_size": "h1",
+            "caption": "",
+            "caption_color": "#000000",
+            "caption_size": "caption",
+            "subheading": "",
+            "subheading_color": "",
+            "subheading_size": "h3",
+            "button_label": "",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "button_label2": "",
+            "link_2": "",
+            "button2_style_secondary": false,
+            "text_bg-mobile": "",
+            "select_stars": "5",
+            "show_stars": false,
+            "information": "",
+            "information_color": "",
+            "icon_1": "",
+            "icon_2": "",
+            "icon_3": "",
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-0e035600-fa44-407c-a8be-0ff68773930b",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_RVN7AH": {
+          "type": "slide",
+          "settings": {
+            "image_link": "",
+            "heading": "",
+            "heading_color": "",
+            "heading_size": "h1",
+            "caption": "",
+            "caption_color": "#000000",
+            "caption_size": "caption",
+            "subheading": "",
+            "subheading_color": "",
+            "subheading_size": "h3",
+            "button_label": "Discover More",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "button_label2": "",
+            "link_2": "",
+            "button2_style_secondary": false,
+            "text_bg-mobile": "",
+            "select_stars": "5",
+            "show_stars": false,
+            "information": "",
+            "information_color": "",
+            "icon_1": "",
+            "icon_2": "",
+            "icon_3": "",
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_XKXXnX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Desktop_c133895f-39e8-4a80-a4c9-8b2a4a0e1826.webp",
+            "image_mobile": "shopify:\/\/shop_images\/Desktop_c133895f-39e8-4a80-a4c9-8b2a4a0e1826.webp",
+            "image_link": "",
+            "heading": "",
+            "heading_color": "",
+            "heading_size": "h1",
+            "caption": "",
+            "caption_color": "#000000",
+            "caption_size": "caption",
+            "subheading": "",
+            "subheading_color": "",
+            "subheading_size": "h3",
+            "button_label": "Discover More",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "button_label2": "",
+            "link_2": "",
+            "button2_style_secondary": false,
+            "text_bg-mobile": "",
+            "select_stars": "5",
+            "show_stars": false,
+            "information": "",
+            "information_color": "",
+            "icon_1": "",
+            "icon_2": "",
+            "icon_3": "",
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_NHcdcD",
+        "slide_RVN7AH",
+        "slide_XKXXnX"
+      ],
+      "settings": {
+        "section_heading": "",
+        "remove-page-dot": false,
+        "remove-heading-mobile": false,
+        "removedots-mobile": false,
+        "aspect-ratio": "2.4",
+        "aspect-ratio2": ".56",
+        "arrow": true,
+        "title_decor": false,
+        "margin_bottom": 40,
+        "custom_class": "",
+        "layout": "full_bleed",
+        "remove-page-width": false,
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand",
+        "padding_top": 0,
+        "padding_bottom": 58,
+        "padding_top1": 0,
+        "padding_bottom1": 34
+      }
+    },
+    "occasion_image_slider_xm47hJ": {
+      "type": "occasion-image-slider",
+      "blocks": {
+        "slider_RArqMQ": {
+          "type": "slider",
+          "settings": {
+            "slider_heading": "Heading",
+            "slider_description": "<p>Image slide dscription content<\/p>",
+            "button_text": "Discover Online",
+            "button_link": "",
+            "text_alignment": "center"
+          }
+        },
+        "slider_Uiq8Vp": {
+          "type": "slider",
+          "settings": {
+            "slider_heading": "Slider heading",
+            "slider_description": "<p> Slider description <\/p>",
+            "button_text": "Discover Online",
+            "button_link": "",
+            "text_alignment": "center"
+          }
+        },
+        "slider_jcUqFW": {
+          "type": "slider",
+          "settings": {
+            "slider_heading": "Slider heading",
+            "slider_description": "<p> Slider description <\/p>",
+            "button_text": "Discover Online",
+            "button_link": "",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slider_RArqMQ",
+        "slider_Uiq8Vp",
+        "slider_jcUqFW"
+      ],
+      "settings": {
+        "section_heading": "",
+        "slider_autoplay": false,
+        "slide_dots": true,
+        "slide_arrows": false,
+        "desktop_slider_aspect_ratio": "",
+        "mobile_slider_aspect_ratio": "",
+        "enable_autoplay": true,
+        "enable_controls": false,
+        "enable_loop": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_DPyCCV": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=EdvydlHCViY",
+        "cover_text": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top1": 36,
+        "padding_bottom1": 36
+      }
+    },
+    "multicolumn_VTVUqh": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_B4ApkH": {
+          "type": "column",
+          "settings": {
+            "block_url": "shopify:\/\/pages\/weeding-landing-page",
+            "title": "Wedding Wear",
+            "multi-column-text": "",
+            "multi-column-text1": ""
+          }
+        },
+        "column_rYwYbb": {
+          "type": "column",
+          "settings": {
+            "block_url": "shopify:\/\/pages\/festive-landing-page",
+            "title": "Festive wear",
+            "multi-column-text": "",
+            "multi-column-text1": ""
+          }
+        },
+        "column_94xqYY": {
+          "type": "column",
+          "settings": {
+            "block_url": "shopify:\/\/pages\/campaign-page",
+            "title": "Everyday casual smart ethnix",
+            "multi-column-text": "",
+            "multi-column-text1": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_B4ApkH",
+        "column_rYwYbb",
+        "column_94xqYY"
+      ],
+      "settings": {
+        "heading": "",
+        "remove-heading-mobile": false,
+        "description": "",
+        "title_decor": false,
+        "grid-gap": false,
+        "col-gap": true,
+        "column-gap": 20,
+        "Row-gap": 20,
+        "margin_bottom": 40,
+        "full_width": false,
+        "full_width1": false,
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 72,
+        "padding_top1": 20,
+        "padding_bottom1": 20
+      }
+    },
+    "image_with_text_wkwPg8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_D8grwb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Seasonal collection",
+            "heading_size": "h1",
+            "heading_color": ""
+          }
+        },
+        "text_RTfcfa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_D8grwb",
+        "text_RTfcfa"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "remove-page-width": true,
+        "imgwidth-checkbox": true,
+        "image-width": 69,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_qNPbRk": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_JWxkYP": {
+          "type": "slide",
+          "settings": {
+            "image_link": "",
+            "heading": "",
+            "heading_color": "",
+            "heading_size": "h1",
+            "caption": "",
+            "caption_color": "#000000",
+            "caption_size": "caption",
+            "subheading": "<p><\/p><p><\/p>",
+            "subheading_color": "",
+            "subheading_size": "h3",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label2": "",
+            "link_2": "",
+            "button2_style_secondary": false,
+            "text_bg-mobile": "",
+            "select_stars": "5",
+            "show_stars": false,
+            "information": "",
+            "information_color": "",
+            "icon_1": "",
+            "icon_2": "",
+            "icon_3": "",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_JWxkYP"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_heading": "",
+        "remove-page-dot": false,
+        "remove-heading-mobile": false,
+        "removedots-mobile": false,
+        "aspect-ratio": "2.61",
+        "aspect-ratio2": "1.65",
+        "arrow": true,
+        "title_decor": false,
+        "margin_bottom": 40,
+        "custom_class": "",
+        "layout": "full_bleed",
+        "remove-page-width": false,
+        "slide_height": "large",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand",
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "padding_top1": 4,
+        "padding_bottom1": 0
+      }
+    },
+    "two_image_text_JDab9G": {
+      "type": "two-image-text",
+      "blocks": {
+        "text_DBTQp9": {
+          "type": "text",
+          "settings": {
+            "heading": "Trends",
+            "para": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sinc"
+          }
+        }
+      },
+      "block_order": [
+        "text_DBTQp9"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "desktop_content_position": "middle",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "padding_top1": 32,
+        "padding_bottom1": 32
+      }
+    },
+    "store_locator_rqeqyt": {
+      "type": "store-locator",
+      "blocks": {
+        "title_MWDyBD": {
+          "type": "title",
+          "settings": {
+            "title": "Find Your Store"
+          }
+        },
+        "description_ffyrgE": {
+          "type": "description",
+          "settings": {
+            "subtitle": "<ul><li>The store locator helps customers easily find their nearest Raymond retail store or shop-in-shop. <\/li><li>It allows users to search by city, pincode or current location to pull up results on a map.<\/li><\/ul>"
+          }
+        },
+        "button_BbAden": {
+          "type": "button",
+          "settings": {
+            "button_text": "View All Stores",
+            "button_url": "shopify:\/\/collections\/frontpage"
+          }
+        }
+      },
+      "block_order": [
+        "title_MWDyBD",
+        "description_ffyrgE",
+        "button_BbAden"
+      ],
+      "settings": {
+        "heading": "<p>STORE LOCATOR<\/p>",
+        "title_decor": false,
+        "margin_bottom": 30,
+        "margin_bottom1": 28,
+        "full_width": false,
+        "full_width1": false,
+        "section_color_scheme": "scheme-decda47a-75cf-40f4-b042-f93ae363093a",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "padding_top1": 32,
+        "padding_bottom1": 62
+      }
+    },
+    "video_thumbnail_AYmeMC": {
+      "type": "video-thumbnail",
+      "blocks": {
+        "video_block_zfLC4X": {
+          "type": "video-block",
+          "settings": {
+            "loop": true,
+            "autoplay": false,
+            "controls": false
+          }
+        },
+        "video_block_PFRfqA": {
+          "type": "video-block",
+          "settings": {
+            "loop": true,
+            "autoplay": false,
+            "controls": false
+          }
+        },
+        "video_block_dRqzxC": {
+          "type": "video-block",
+          "settings": {
+            "loop": true,
+            "autoplay": false,
+            "controls": false
+          }
+        },
+        "video_block_9Yfye8": {
+          "type": "video-block",
+          "settings": {
+            "loop": true,
+            "autoplay": false,
+            "controls": false
+          }
+        },
+        "video_block_LqJxdq": {
+          "type": "video-block",
+          "settings": {
+            "loop": true,
+            "autoplay": false,
+            "controls": false
+          }
+        },
+        "video_block_gG8qCm": {
+          "type": "video-block",
+          "settings": {
+            "loop": true,
+            "autoplay": false,
+            "controls": false
+          }
+        }
+      },
+      "block_order": [
+        "video_block_zfLC4X",
+        "video_block_PFRfqA",
+        "video_block_dRqzxC",
+        "video_block_9Yfye8",
+        "video_block_LqJxdq",
+        "video_block_gG8qCm"
+      ],
+      "settings": {
+        "heading": "<p>Video thumbnail<\/p>",
+        "title_decor": true,
+        "margin_bottom": 40,
+        "full_width": true,
+        "arrow_color": "#000000",
+        "padding-top": 64,
+        "padding-bottom": 0
+      }
+    }
+  },
+  "order": [
+    "slideshow_wkFWpy",
+    "occasion_image_slider_xm47hJ",
+    "video_DPyCCV",
+    "multicolumn_VTVUqh",
+    "image_with_text_wkwPg8",
+    "slideshow_qNPbRk",
+    "two_image_text_JDab9G",
+    "store_locator_rqeqyt",
+    "video_thumbnail_AYmeMC"
+  ]
+}
