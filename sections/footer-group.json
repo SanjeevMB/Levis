@@ -1,111 +1,25 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
     "footer": {
       "type": "footer",
-      "blocks": {
-        "link_list_b7VV9M": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer-menu-1"
-          }
-        },
-        "link_list_LQD6FF": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer-menu-2"
-          }
-        },
-        "link_list_pQbhR6": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer-menu-3"
-          }
-        },
-        "text_naRNq4": {
-          "type": "text",
-          "settings": {
-            "heading": "Say hello to being Ethnix!",
-            "subtext": "<p>Vestibulum tempus imperdiet sem ac porttitor. Vivamus pulvinar commodo orci, suscipit porttitor velit elementum non. Fusce nec pellentesque erat, id lobortis nunc. Donec dui leo, ultrices quis turpis nec, sollicitudin sodales tortor. Aenean dapibus magna quam, id tincidunt quam placerat consequat. Nulla eu laoreet ex. Vestibulum nec vulputate turpis, id euismod orci. Phasellus consectetur tortor est. Donec lectus ex, rhoncus ac consequat at, viverra sit amet sem. Aliquam sed vestibulum nibh. Phasellus ut lorem pharetra, placerat urna id, tincidunt quam. Praesent non ex congue, tristique risus quis, blandit purus. Sed tristique sapien ut vehicula pretium. Donec purus metus, vulputate sit amet ullamcorper vel, aliquet ac lectus.<\/p>"
-          }
-        },
-        "text_JLxz8b": {
-          "type": "text",
-          "settings": {
-            "heading": "It’s better to stay Ethnix!",
-            "subtext": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.<\/p>"
-          }
-        },
-        "text_ggrzMF": {
-          "type": "text",
-          "settings": {
-            "heading": "Inspired by the all-time MVP",
-            "subtext": "<p>Donec dictum tristique porta. Etiam convallis lorem lobortis nulla molestie, nec tincidunt ex ullamcorper. Quisque ultrices lobortis elit sed euismod. Duis in ultrices dolor, ac rhoncus odio. Suspendisse tempor sollicitudin dui sed lacinia. Nulla quis enim posuere, congue libero quis, commodo purus. Cras iaculis massa ut elit tempor malesuada. Pellentesque dictum elit quis diam tristique, sed tincidunt velit ullamcorper. Suspendisse potenti. Nam varius varius erat. Aliquam pulvinar elit ut orci egestas tincidunt. Morbi ornare orci ante, mollis posuere lacus accumsan sit amet. Cras ut dignissim ipsum.<\/p>"
-          }
-        },
-        "text_4pHFaM": {
-          "type": "text",
-          "settings": {
-            "heading": "Your one-stop-shop for all things Ethnix Online",
-            "subtext": "<p>Vestibulum tempus imperdiet sem ac porttitor. Vivamus pulvinar commodo orci, suscipit porttitor velit elementum non. Fusce nec pellentesque erat, id lobortis nunc. Donec dui leo, ultrices quis turpis nec, sollicitudin sodales tortor. Aenean dapibus magna quam, id tincidunt quam placerat consequat. Nulla eu laoreet ex. Vestibulum nec vulputate turpis, id euismod orci. Phasellus consectetur tortor est. Donec lectus ex, rhoncus ac consequat at, viverra sit amet sem. Aliquam sed vestibulum nibh. Phasellus ut lorem pharetra, placerat urna id, tincidunt quam. Praesent non ex congue, tristique risus quis, blandit purus. Sed tristique sapien ut vehicula pretium. Donec purus metus, vulputate sit amet ullamcorper vel, aliquet ac lectus.<\/p>"
-          }
-        },
-        "text_hJxVnM": {
-          "type": "text",
-          "settings": {
-            "heading": "Why you should stay Ethnix",
-            "subtext": "<p>Donec vitae mi vulputate, suscipit urna in, malesuada nisl. Pellentesque laoreet pretium nisl, et pulvinar massa eleifend sed. Curabitur maximus mollis diam, vel varius sapien suscipit eget. Cras sollicitudin ligula at volutpat ultrices. Nunc arcu enim, rhoncus eu maximus id, malesuada eu neque. Nunc aliquet cursus tortor id pellentesque. Quisque tempus arcu sed felis tempus, vel rutrum diam egestas. Suspendisse non magna nisi. Duis quis risus mi. Morbi velit leo, pellentesque nec odio sit amet, fringilla sollicitudin nulla. Sed consectetur eu leo sed sodales. Quisque porta, ante vitae auctor pellentesque, dolor neque vestibulum urna, sit amet consectetur ex lectus vel enim. Maecenas tellus erat, interdum vel tristique ac, rhoncus id ante.<\/p>"
-          }
-        },
-        "text_nhPn66": {
-          "type": "text",
-          "settings": {
-            "heading": "Start shopping the Ethix clothing brand",
-            "subtext": "<p>Aliquam a dui vel justo fringilla euismod id id enim. Nunc non semper tellus. Pellentesque vitae tellus non dui fermentum hendrerit. In vel imperdiet mi. Aliquam erat volutpat. Cras dapibus orci eu eros tempus efficitur. Nulla rhoncus arcu nec dictum condimentum. Aenean sapien leo, maximus nec magna vel, gravida auctor quam. Cras congue massa massa, id luctus elit ultricies at. Maecenas in neque justo. Ut ac tincidunt lorem, non posuere metus. Sed vulputate pellentesque lectus, id luctus turpis interdum vel. Fusce aliquet condimentum arcu id elementum.<\/p>"
-          }
-        },
-        "contact_text_6ifQxb": {
-          "type": "contact-text",
-          "settings": {
-            "contact_heading": "Get In Touch",
-            "contact_subtext": "<p>Raymond Limited, New Hind House, Narottam Morarjee Marg, Ballard Estate, Mumbai – 400001<\/p>"
-          }
-        },
-        "contact_text_9QF7TC": {
-          "type": "contact-text",
-          "settings": {
-            "contact_heading": "Call us on",
-            "contact_subtext": "<p>+1800 222 001Monday To Saturday - 9:30AM To 6:30PM<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "link_list_b7VV9M",
-        "link_list_LQD6FF",
-        "link_list_pQbhR6",
-        "text_naRNq4",
-        "text_JLxz8b",
-        "text_ggrzMF",
-        "text_4pHFaM",
-        "text_hJxVnM",
-        "text_nhPn66",
-        "contact_text_6ifQxb",
-        "contact_text_9QF7TC"
-      ],
+      "disabled": true,
       "settings": {
-        "color_scheme": "background-2",
-        "color_scheme_bottom": "",
-        "footer_logo": "shopify:\/\/shop_images\/Layer_1_2.svg",
+        "color_scheme": "background-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Newsletter",
-        "newsletter_subheading": "Get updates straight to your inbox about ColorPlus.",
+        "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
-        "show_downloads": false,
         "enable_country_selector": true,
         "enable_language_selector": true,
         "payment_enable": true,
