@@ -1,6 +1,161 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Pharma Capsules",
+  "settings": [
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "Main Title",
+      "default": "Pharma Capsules"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "A superior delivery mechanism, for the most effective result"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "bullet1_title",
+      "label": "Bullet Point 1 Title",
+      "default": "FAST ABSORPTION"
+    },
+    {
+      "type": "text",
+      "id": "bullet1_description",
+      "label": "Bullet Point 1 Description",
+      "default": "Harnessing the power of the purest and most potent plant actives and adaptogens to restore balance to mind, body and skin."
+    },
+    {
+      "type": "text",
+      "id": "bullet2_title",
+      "label": "Bullet Point 2 Title",
+      "default": "INCREASED BIOAVAILABILITY"
+    },
+    {
+      "type": "text",
+      "id": "bullet2_description",
+      "label": "Bullet Point 2 Description",
+      "default": "Cutting-edge, effective products and experiences that work. Thoughtfully designed by experts and rigorously researched and tested."
+    },
+    {
+      "type": "text",
+      "id": "bullet3_title",
+      "label": "Bullet Point 3 Title",
+      "default": "PROTECTION OF ACTIVE INGREDIENTS"
+    },
+    {
+      "type": "text",
+      "id": "bullet3_description",
+      "label": "Bullet Point 3 Description",
+      "default": "We carefully consider every choice to create the most thoughtful, ethical and sustainable experiences and products."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pharma Capsules",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
+
+<div class="pharma-capsules-section">
+    <div class="text-center" style="margin-bottom: 0px">
+        <h2>{{ section.settings.main_title }}</h2>
+        <p>{{ section.settings.subtitle }}</p>
+    </div>
+    <div class="content-wrap">
+        <div class="image-container">
+            <img src="{{ section.settings.image | img_url: '1024x1024' }}" alt="{{ settings.main_title }}">
+        </div>
+        <div class="bullets">
+            <div class="bullet-wrap">
+                <div class="bullet">
+                    <div style="width: 10px;height: 10px;background: #aaaaaa;border-radius: 50%;position: absolute;left: -37.5px; border: 1px solid #aaa"></div>
+                    <div style="padding: 10px 0;position: relative;top: -18px; max-width: 540px; border-bottom: 1px solid #aaaaaa;">
+                        <p class="heading">{{ section.settings.bullet1_title }}</p>
+                        <p style="font-weight: 300;">{{ section.settings.bullet1_description }}</p>
+                    </div>
+                </div>
+                <div class="bullet">
+                    <div style="width: 10px;height: 10px;background: #fff;border-radius: 50%;position: absolute;left: -37.5px; border: 1px solid #aaa"></div>
+                    <div style="padding: 10px 0;position: relative;top: -18px; max-width: 540px; border-bottom: 1px solid #aaaaaa;">
+                        <p class="heading">{{ section.settings.bullet2_title }}</p>
+                        <p style="font-weight: 300;">{{ section.settings.bullet2_description }}</p>
+                    </div>
+                </div>
+                <div class="bullet">
+                    <div style="width: 10px;height: 10px;background: #fff;border-radius: 50%;position: absolute;left: -37.5px; border: 1px solid #aaa"></div>
+                    <div style="padding: 10px 0;position: relative;top: -18px; max-width: 540px">
+                        <p class="heading">{{ section.settings.bullet3_title }}</p>
+                        <p style="font-weight: 300;">{{ section.settings.bullet3_description }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .pharma-capsules-section .content-wrap {
+        display:  grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 48px 0;
+    }
+
+    .pharma-capsules-section {
+        padding: 20px;
+        text-align: center;
+        margin: 48px auto;
+        max-width: 1560px;
+    }
+    .pharma-capsules-section .image-container {
+        position: relative;
+        order: 0;
+    }
+    .pharma-capsules-section .image-container img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+    }
+    .pharma-capsules-section .bullets {
+        display: flex;
+        align-items: center;
+    }
+    .pharma-capsules-section .heading {
+        font-size: 20px;
+        letter-spacing: 0.7px;
+    }
+    .pharma-capsules-section .bullet {
+        margin-bottom: 15px;
+
+        text-align: left;
+        position: relative;
+    }
+    .pharma-capsules-section .bullet-wrap {
+        border-left: 1px solid #AAAAAA;
+        padding-left: 32px;
+        margin-left: 24px;
+    }
+
+   @media(min-width: 768px) {
+        .pharma-capsules-section .content-wrap {
+            grid-template-columns: 1fr 1fr;
+        }
+
+ @media (max-width: 767px) {
+          .bullets {
+          padding-top: 30px;
+          }
+ }
+    }
+</style>
