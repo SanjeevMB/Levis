@@ -4,9 +4,7 @@ class ProductCard extends HTMLElement {
 
     this.sectionId = this.dataset.sectionId;
     this.productUrl = this.dataset.productUrl;
-    this.variants = JSON.parse(this.querySelector('script').textContent
-    console.log(this.variants);
-    
+    this.variants = JSON.parse(this.querySelector('script').textContent    
     this.addEventListener('input', this.inputChange);
   }
 
@@ -19,6 +17,8 @@ class ProductCard extends HTMLElement {
         selectedValues.push(input.value);
       }
     })
+
+    console.log(this.variants);
 
     this.variants.forEach(function(variant) {
       if(JSON.stringify(variant.options) == JSON.stringify(selectedValues)) {
