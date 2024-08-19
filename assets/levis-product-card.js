@@ -18,7 +18,6 @@ class ProductCard extends HTMLElement {
       }
     })
 
-    console.log(this.variants);
 
     this.variants.forEach(function(variant) {
       if(JSON.stringify(variant.options) == JSON.stringify(selectedValues)) {
