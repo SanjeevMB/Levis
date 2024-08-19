@@ -1,0 +1,56 @@
+{% liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign image = current_product_variant.featured_image | default: product.featured_image
+%}
+
+<product-card
+  class="product-card"
+  data-section-id="{{ sectionId }}"
+  data-product-url="{{ product.url }}"
+>
+  <div class="product_container">
+    <div class="product-image-container">
+      <a href="{{ product.url }}" class="hover_effect">
+        {% render 'image', class: 'media media--portrait first-image', mobileSrc: image, desktopSrc: image %}
+      </a>
+      {% unless current_variant.available %}
+        <p class="sold_out">Sold Out</p>
+      {% endunless %}
+    </div>
+
+    <div class="product_card_info">
+      {% form 'product', product %}
+        {% unless product.has_only_default_variant %}
+          <ul class="variant_box">
+            {% for option in product.options_with_values %}
+              {% if option.name == 'Color' %}
+                <li class="option_name">
+                  <ul class="radio_list radio-btn">
+                    {% for value in option.values %}
+                      <label
+                        class="variant_switch"
+                      >
+                        <input
+                          type="radio"
+                          class="radio_input"
+                          name="{{ option.name }}"
+                          value="{{ value }}"
+                          {% if option.selected_value == value %}
+                            checked
+                          {% endif %}
+                        >
+                      </label>
+                    {% endfor %}
+                  </ul>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endunless %}
+      {% endform %}
+    </div>
+  </div>
+  <script>
+    {{ product.variants | json }}
+  </script>
+</product-card>
