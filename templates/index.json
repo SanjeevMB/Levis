@@ -83,26 +83,15 @@
         ]
       }
     },
-    "sanjeev_xpGWEP": {
-      "type": "sanjeev",
-      "settings": {
-        "main_title": "Pharma Capsules",
-        "subtitle": "A superior delivery mechanism, for the most effective result",
-        "image": "shopify:\/\/shop_images\/Power-Drops-9_1.jpg",
-        "bullet1_title": "FAST ABSORPTION",
-        "bullet1_description": "Harnessing the power of the purest and most potent plant actives and adaptogens to restore balance to mind, body and skin.",
-        "bullet2_title": "INCREASED BIOAVAILABILITY",
-        "bullet2_description": "Cutting-edge, effective products and experiences that work. Thoughtfully designed by experts and rigorously researched and tested.",
-        "bullet3_title": "PROTECTION OF ACTIVE INGREDIENTS",
-        "bullet3_description": "We carefully consider every choice to create the most thoughtful, ethical and sustainable experiences and products."
-      }
-    },
     "levis_product_card_static_e9AxT8": {
       "type": "levis-product-card-static",
       "settings": {
         "heading_text": "",
         "product_list": [
-
+          "black-leather-bag",
+          "blue-silk-tuxedo",
+          "chequered-red-shirt",
+          "classic-leather-jacket"
         ]
       }
     }
@@ -110,7 +99,6 @@
   "order": [
     "slideshow_qjGWUB",
     "levis_product_card_dynamic_hYtqYf",
-    "sanjeev_xpGWEP",
     "levis_product_card_static_e9AxT8"
   ]
 }
