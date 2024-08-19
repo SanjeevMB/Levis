@@ -6,7 +6,7 @@ class ProductCard extends HTMLElement {
     this.productUrl = this.dataset.productUrl;
     this.variants = JSON.parse(this.querySelector('script').textContent)   
     this.addEventListener('input', this.inputChange);
-    console.log(this.variants);
+    console.log(typeof(this.variants);
   }
 
   inputChange() {
