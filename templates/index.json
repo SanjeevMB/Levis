@@ -15,7 +15,6 @@
         "slide_HfVKD7": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hp_banner_img_2_desk_2_42b81738-9a1c-4bf2-8e03-61ff046d730e.webp",
             "heading": "<strong>Summer Sale<\/strong>",
             "heading_size": "h0",
             "subheading": "Up to 50% discount on the latest trends",
@@ -33,7 +32,6 @@
         "slide_b8pcnz": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Desktop_c133895f-39e8-4a80-a4c9-8b2a4a0e1826.webp",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -98,11 +96,21 @@
         "bullet3_title": "PROTECTION OF ACTIVE INGREDIENTS",
         "bullet3_description": "We carefully consider every choice to create the most thoughtful, ethical and sustainable experiences and products."
       }
+    },
+    "levis_product_card_static_e9AxT8": {
+      "type": "levis-product-card-static",
+      "settings": {
+        "heading_text": "",
+        "product_list": [
+
+        ]
+      }
     }
   },
   "order": [
     "slideshow_qjGWUB",
     "levis_product_card_dynamic_hYtqYf",
-    "sanjeev_xpGWEP"
+    "sanjeev_xpGWEP",
+    "levis_product_card_static_e9AxT8"
   ]
 }
