@@ -49,7 +49,7 @@
       <div class="product_item_static">
         {% render 'levis-product-card-snippet', product: product, sectionId: section.id %}
       </div>
-      {{ product.variants }}
+      {{ product.variants | json }}
     {% endfor %}
     
   </div>
