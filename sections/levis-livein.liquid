@@ -32,7 +32,7 @@
           desktopSrc: block.settings.image
         %}
         <div class="image_icon icon-{{ forloop.index }}">
-          {% render 'image' class='media media--square', mobileSrc: block.settings.icon , desktopSrc: block.settings.icon %}
+          {% render 'image', mobileSrc: block.settings.icon, desktopSrc: block.settings.icon %}
         </div>
         <div class="overlay overlay-{{ forloop.index }}"></div>
       </div>
@@ -76,3 +76,15 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'image' class='media media--square', mobileSrc: block.settings.icon
+    , desktopSrc: block.settings.icon %}"
+  to: "{% render 'image', mobileSrc: block.settings.icon, desktopSrc: block.settings.icon
+    %}"
+  position: 996..1081
+{% endcomment %}
